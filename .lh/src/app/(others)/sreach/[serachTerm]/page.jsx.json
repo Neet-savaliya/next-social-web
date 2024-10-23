@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/app/(others)/sreach/[serachTerm]/page.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1729684526155,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1729684531604,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from 'react'\r\n \r\n-export default function Ser() {\r\n+export default function Searc() {\r\n   return (\r\n-    <div>Ser</div>\r\n+    <div>Searc</div>\r\n   )\r\n }\r\n"
+                }
+            ],
+            "date": 1729684526155,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\n\r\nexport default function page() {\r\n  return (\r\n    <div>page</div>\r\n  )\r\n}\r\n"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/componants/LeftSidebar.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1729683703050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1729683703050,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\n\r\nexport default function LeftSidebar() {\r\n  return (\r\n    <div>LeftSidebar</div>\r\n  )\r\n}\r\n"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/components/News.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1729686469066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1729686549239,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,30 @@\n import React from 'react'\r\n \r\n export default function News() {\r\n   return (\r\n-    <div>News</div>\r\n+    <div className='text-gray-700 space-y-3 bg-gray-100 rounded-xl pt-2'>\r\n+      <h4 className='font-bold text-xl px-4'>Whats happening</h4>\r\n+      {news.slice(0, articleNum).map((article) => (\r\n+        <div key={article.url}>\r\n+          <a href={article.url} target='_blank'>\r\n+            <div className='flex items-center justify-between px-4 py-2 space-x-1 hover:bg-gray-200 transition duration-200'>\r\n+              <div className='space-y-0.5'>\r\n+                <h6 className='text-sm font-bold'>{article.title}</h6>\r\n+                <p className='text-xs font-medium text-gray-500'>\r\n+                  {article.source.name}\r\n+                </p>\r\n+              </div>\r\n+              <img src={article.urlToImage} width={70} className='rounded-xl' />\r\n+            </div>\r\n+          </a>\r\n+        </div>\r\n+      ))}\r\n+      <button\r\n+        onClick={() => setArticleNum(articleNum + 3)}\r\n+        className='text-blue-300 pl-4 pb-3 hover:text-blue-400 text-sm'\r\n+      >\r\n+        Load more\r\n+      </button>\r\n+    </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1729686558407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,5 @@\n-import React from 'react'\r\n \r\n-\r\n-\r\n export default function News() {\r\n   return (\r\n     <div className='text-gray-700 space-y-3 bg-gray-100 rounded-xl pt-2'>\r\n       <h4 className='font-bold text-xl px-4'>Whats happening</h4>\r\n"
+                },
+                {
+                    "date": 1729686564517,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,29 @@\n+import { useReducer } from \"react\"\r\n+export default function News() {\r\n+  return (\r\n+    <div className='text-gray-700 space-y-3 bg-gray-100 rounded-xl pt-2'>\r\n+      <h4 className='font-bold text-xl px-4'>Whats happening</h4>\r\n+      {news.slice(0, articleNum).map((article) => (\r\n+        <div key={article.url}>\r\n+          <a href={article.url} target='_blank'>\r\n+            <div className='flex items-center justify-between px-4 py-2 space-x-1 hover:bg-gray-200 transition duration-200'>\r\n+              <div className='space-y-0.5'>\r\n+                <h6 className='text-sm font-bold'>{article.title}</h6>\r\n+                <p className='text-xs font-medium text-gray-500'>\r\n+                  {article.source.name}\r\n+                </p>\r\n+              </div>\r\n+              <img src={article.urlToImage} width={70} className='rounded-xl' />\r\n+            </div>\r\n+          </a>\r\n+        </div>\r\n+      ))}\r\n+      <button\r\n+        onClick={() => setArticleNum(articleNum + 3)}\r\n+        className='text-blue-300 pl-4 pb-3 hover:text-blue-400 text-sm'\r\n+      >\r\n+        Load more\r\n+      </button>\r\n+    </div>\r\n+  )\r\n+}\r\n"
+                }
+            ],
+            "date": 1729686469066,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\n\r\nexport default function News() {\r\n  return (\r\n    <div>News</div>\r\n  )\r\n}\r\n"
+        }
+    ]
+}

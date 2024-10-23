@@ -1,0 +1,74 @@
+{
+    "sourceFile": "src/components/RightSidebar.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 14,
+            "patches": [
+                {
+                    "date": 1729684656675,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1729684663714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import React from 'react'\r\n+\r\n+export default function RightSidebar() {\r\n+  return (\r\n+    <div className=''>\r\n+      \r\n+    </div>\r\n+  )\r\n+}\r\n"
+                },
+                {
+                    "date": 1729684674504,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+import React from 'react'\r\n+\r\n+export default function RightSidebar() {\r\n+  return (\r\n+    <div className=''>\r\n+      <form >\r\n+        inp\r\n+      </form>\r\n+    </div>\r\n+  )\r\n+}\r\n"
+                },
+                {
+                    "date": 1729684688804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+imp default function RightSidebar() {\r\n+  return (\r\n+    <div className=''>\r\n+      <form >\r\n+        <input type=\"text\" />\r\n+      </form>\r\n+    </div>\r\n+  )\r\n+}\r\n"
+                },
+                {
+                    "date": 1729684699389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,36 +1,10 @@\n-imp default function RightSidebar() {\r\n+'use '\r\n+export default function RightSidebar() {\r\n   return (\r\n     <div className=''>\r\n       <form >\r\n         <input type=\"text\" />\r\n       </form>\r\n     </div>\r\n   )\r\n }\r\n-import React from 'react'\r\n-\r\n-export default function RightSidebar() {\r\n-  return (\r\n-    <div className=''>\r\n-      <form >\r\n-        inp\r\n-      </form>\r\n-    </div>\r\n-  )\r\n-}\r\n-import React from 'react'\r\n-\r\n-export default function RightSidebar() {\r\n-  return (\r\n-    <div className=''>\r\n-      \r\n-    </div>\r\n-  )\r\n-}\r\n-import React from 'react'\r\n-\r\n-export default function RightSidebar() {\r\n-  return (\r\n-    <div></div>\r\n-  )\r\n-}\r\n"
+                },
+                {
+                    "date": 1729684704702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+'use client'\r\n+\r\n+export default function RightSidebar() {\r\n+  return (\r\n+    <div className=''>\r\n+      <form >\r\n+        <input type=\"text\" />\r\n+      </form>\r\n+    </div>\r\n+  )\r\n+}\r\n"
+                },
+                {
+                    "date": 1729684717196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+'use client'\r\n+\r\n+export default function RightSidebar() {\r\n+  return (\r\n+    <div className=''>\r\n+      <form onSubmit={}>\r\n+        <input type=\"text\" />\r\n+      </form>\r\n+    </div>\r\n+  )\r\n+}\r\n"
+                },
+                {
+                    "date": 1729684725380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+'use client'\r\n+\r\n+export default function RightSidebar() {\r\n+  return (\r\n+    <div className=''>\r\n+      <form onSubmit={}>\r\n+        <input type=\"text\" value={}/>\r\n+      </form>\r\n+    </div>\r\n+  )\r\n+}\r\n"
+                },
+                {
+                    "date": 1729684731108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+'use client'\r\n+\r\n+\r\n+export default function RightSidebar() {\r\n+  return (\r\n+    <div className=''>\r\n+      <form onSubmit={}>\r\n+        <input type=\"text\" value={}/>\r\n+      </form>\r\n+    </div>\r\n+  )\r\n+}\r\n"
+                },
+                {
+                    "date": 1729684740506,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+'use client'\r\n+import \r\n+\r\n+export default function RightSidebar() {\r\n+  return (\r\n+    <div className=''>\r\n+      <form onSubmit={}>\r\n+        <input type=\"text\" value={}/>\r\n+      </form>\r\n+    </div>\r\n+  )\r\n+}\r\n"
+                },
+                {
+                    "date": 1729684749631,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+'use client'\r\n+import { useState } from \"react\"\r\n+\r\n+export default function RightSidebar() {\r\n+  return (\r\n+    <div className=''>\r\n+      <form onSubmit={}>\r\n+        <input type=\"text\" value={}/>\r\n+      </form>\r\n+    </div>\r\n+  )\r\n+}\r\n"
+                },
+                {
+                    "date": 1729684893022,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+'use client'\r\n+import { useState } from \"react\"\r\n+\r\n+export default function RightSidebar() {\r\n+  return (\r\n+    <div className=''>\r\n+      <form onSubmit={}>\r\n+        <input type=\"text\" value={}/>\r\n+      </form>\r\n+    </div>\r\n+  )\r\n+}\r\n"
+                },
+                {
+                    "date": 1729685177281,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,91 +1,13 @@\n 'use client'\r\n import { useState } from \"react\"\r\n \r\n export default function RightSidebar() {\r\n+  const searchTer\r\n   return (\r\n     <div className=''>\r\n       <form onSubmit={}>\r\n         <input type=\"text\" value={}/>\r\n       </form>\r\n     </div>\r\n   )\r\n }\r\n-'use client'\r\n-import { useState } from \"react\"\r\n-\r\n-export default function RightSidebar() {\r\n-  return (\r\n-    <div className=''>\r\n-      <form onSubmit={}>\r\n-        <input type=\"text\" value={}/>\r\n-      </form>\r\n-    </div>\r\n-  )\r\n-}\r\n-'use client'\r\n-import \r\n-\r\n-export default function RightSidebar() {\r\n-  return (\r\n-    <div className=''>\r\n-      <form onSubmit={}>\r\n-        <input type=\"text\" value={}/>\r\n-      </form>\r\n-    </div>\r\n-  )\r\n-}\r\n-'use client'\r\n-\r\n-\r\n-export default function RightSidebar() {\r\n-  return (\r\n-    <div className=''>\r\n-      <form onSubmit={}>\r\n-        <input type=\"text\" value={}/>\r\n-      </form>\r\n-    </div>\r\n-  )\r\n-}\r\n-'use client'\r\n-\r\n-export default function RightSidebar() {\r\n-  return (\r\n-    <div className=''>\r\n-      <form onSubmit={}>\r\n-        <input type=\"text\" value={}/>\r\n-      </form>\r\n-    </div>\r\n-  )\r\n-}\r\n-'use client'\r\n-\r\n-export default function RightSidebar() {\r\n-  return (\r\n-    <div className=''>\r\n-      <form onSubmit={}>\r\n-        <input type=\"text\" />\r\n-      </form>\r\n-    </div>\r\n-  )\r\n-}\r\n-'use client'\r\n-\r\n-export default function RightSidebar() {\r\n-  return (\r\n-    <div className=''>\r\n-      <form >\r\n-        <input type=\"text\" />\r\n-      </form>\r\n-    </div>\r\n-  )\r\n-}\r\n-'use '\r\n-export default function RightSidebar() {\r\n-  return (\r\n-    <div className=''>\r\n-      <form >\r\n-        <input type=\"text\" />\r\n-      </form>\r\n-    </div>\r\n-  )\r\n-}\r\n"
+                },
+                {
+                    "date": 1729685188108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n 'use client'\r\n import { useState } from \"react\"\r\n \r\n export default function RightSidebar() {\r\n-  const [searchTerm]\r\n+  const [searchTerm, SetSearchTerm]\r\n   return (\r\n     <div className=''>\r\n       <form onSubmit={}>\r\n         <input type=\"text\" value={}/>\r\n"
+                },
+                {
+                    "date": 1729685194017,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+'use client'\r\n+import { useState } from \"react\"\r\n+\r\n+export default function RightSidebar() {\r\n+  const [searchTerm, SetSearchTerm] = useState();\r\n+  return (\r\n+    <div className=''>\r\n+      <form onSubmit={}>\r\n+        <input type=\"text\" value={}/>\r\n+      </form>\r\n+    </div>\r\n+  )\r\n+}\r\n"
+                }
+            ],
+            "date": 1729684656675,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\n\r\nexport default function RightSidebar() {\r\n  return (\r\n    <div></div>\r\n  )\r\n}\r\n"
+        }
+    ]
+}
